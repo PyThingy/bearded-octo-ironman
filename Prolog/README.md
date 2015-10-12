@@ -1,7 +1,9 @@
-# Zadania
+# Prolog albo rozgrzewka
 
 
-## Choinka :christmas_tree:
+## Zadania
+
+### Choinka :christmas_tree:
 Program do rysowania choinki z gwiazdek. Użytkownik podaje wysokość, program rysuje trójkąt:
 
 ```
@@ -21,7 +23,7 @@ $ python choinka.py 6
 ***********
 ```
 
-## Ramka
+### Ramka
 
 Program do rysowania ramek wokół napisów. Użytkownik podaje tekst, program rysuje ramkę. Pierwsza wersja dla jednej linii tekstu, bonus za wiele linii:
 
@@ -41,7 +43,7 @@ $ echo "Zen\nof\nPython" | python ramka.py
 +--------+
 ```
 
-## FizzBuzz :honeybee:
+### FizzBuzz :honeybee:
 
 Program odlicza od 1 to N. Dla liczb podzielnych przez 3, wypisuje “Fizz”, dla podzielnych przez 5 wypisuje “Buzz”, a dla podzielnych zarówno przez 3 jak i 5, wypisuje FizzBuzz:
 
@@ -79,7 +81,7 @@ $ python fizzbuzz.py 30
 30 FizzBuzz
 ```
 
-## Countdown * (zadanie z gwiazdką) :wink:
+### Countdown * (zadanie z gwiazdką) :wink:
 
 Program przyjmuje datę i godzinę, a wyświetla ile pozostało do tej daty dni, godzin, minut i sekund:
 
