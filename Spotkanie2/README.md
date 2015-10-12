@@ -12,7 +12,8 @@ z liczbą powtórzeń danego znaku z wejścia (w tym przypadku `{‘a’: 2, ‘
 ### Dict Maker Collective
 Zmodyfikuj rozwiązanie zadania 1. (*Dict Maker*) tak, żeby wykorzystany był moduł *collections* z biblioteki standardowej.
 
-**Hint**
+**HINT**
+
 [collections.Counter](https://docs.python.org/2/library/collections.html#collections.Counter)
 
 ### Phone book :phone:
@@ -21,10 +22,10 @@ Zaimplementuj prostą książkę telefoniczną. Potrzebne są nam takie funkcjon
         `{‘surname’: {‘name’: [‘12-32-21’, ...], ...}, …}`
 * czyszczenie ksiązki telefonicznej
 * mając na wejściu nazwisko, chcemy wyświetlić przypisane do niego numery oraz na końcu liczbę tych numerów (użyj generatorów!). Przykładowy output:
-    ```
-    xxx-xxx-xxx
-    yyy-yyy-yyy
-    2```
+
+        xxx-xxx-xxx
+        yyy-yyy-yyy
+        2
 
 Program powinien przechowywać cały czas stan książki i umożliwiać interakcję z użytkownikiem.
 Załużmy, że na początku książka jest pustym słownikiem.
@@ -35,6 +36,7 @@ Czy można zaproponować inne rozwiązanie? (kolejność alfabetyczna i numery n
 
 
 ## Zadanie domowe :runner:
+
 1. Przeczytać wstęp o *ciągu Fibonacciego* ([wiki](http://pl.wikipedia.org/wiki/Ci%C4%85g_Fibonacciego)).
 2. Spróbować napisać funkcję rekurencyjną obliczającą n-tą liczbę ciągu Fibonacciego.
 Można oswoić się z tematem rekurencji korzystając np. z [Rekurencja](http://brain.fuw.edu.pl/edu/TI:Algorytmy_i_struktury_danych/Rekurencja).

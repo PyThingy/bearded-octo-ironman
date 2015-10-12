@@ -14,7 +14,7 @@ Napisz funkcję obliczającą kolejny element ciągu Fibonacciego rekurencyjnie 
 
 ### Sortowanie bąbelkowe :bath:
 
-Posortuj listą używając sortowania bąbelkowego.
+Posortuj listę używając sortowania bąbelkowego.
 
 
 ## Zadanie domowe
@@ -23,16 +23,17 @@ Posortuj listą używając sortowania bąbelkowego.
 
 Napisz funkcję
 
-    *def flatten(li)*
+    def flatten(li)
 
 która wylistuje wszystkie pojedyncze elementy (bez kluczy), albo listę tych elementów.
 
-**Hint:** rekurencja
+**HINT:** rekurencja
 
 ### List file
+
 Napisz funkcję
 
-    *def list_files()*
+    def list_files()
 
 która dostaje ścieżkę do folderu pierwszego, ma tam zajrzeć i wylistować jego zawartość.
 Dla podfoderów ma również zajrzeć do środka i wylistować zawartość, i tak do skutku.

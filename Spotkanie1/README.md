@@ -29,18 +29,18 @@ Napisz przy ich pomocy funkcję `enumerate`.
 ### List jump
 
 A non-empty zero-indexed array A consisting of N integers is given.
-Each elements of the array can be treated as a relative pointer to another element in the array:
-if A[K]=M than element A[K] points to the element a[K+M].
+Each elements of the array can be treated as a relative pointer to another element in the array, that is,
+if A[K]=M than element A[K] points to the element A[K+M].
 
 The array defines a sequence of jumps of a pawn as follows:
 * initially, a pawn is located at element A[0];
 * on each jump a pawn moved from its current element to the destination element pointed by the current element;
-i.e. if the pawn stands on element A[K] then it jumps to an element to pointed by A[K];
+that is, if the pawn stands on element A[K] then it jumps to an element to pointed by A[K];
 * the pawn may jump forever of may jump out of the array.
 
 For example, consider the following array A:
 
-`A[0]=2    A[1]=3    A[2]=-1    A[3]=1    A[4]=3`
+    A[0]=2    A[1]=3    A[2]=-1    A[3]=1    A[4]=3
 
 ![figure 1](../images/list_jump1.png)
 
@@ -53,16 +53,16 @@ initially, the pawn is located at element A[0];
 
 Write a function:
 
-    *def solution(A)*
+    def solution(A)
 
 that, given a non-empty zero-indexed array A consisting of N integers, returns the number of jumps
-after which the pawn will be out of array. The function should return -1 if the pawn will never jump out of the array.
+after which the pawn will be out of array. The function should return *-1* if the pawn will never jump out of the array.
 
-For example, for the array A given above, the function should return 4, as explained above. Given array A such that:
+For example, for the array A given above, the function should return *4*, as explained above. Given array A such that:
 
-`A[0]=1    A[1]=1    A[2]=-1    A[3]=1`
+    A[0]=1    A[1]=1    A[2]=-1    A[3]=1
 
 ![figure 1](../images/list_jump2.png)
 
 
-that function should return -1.
+that function should return *-1*.
