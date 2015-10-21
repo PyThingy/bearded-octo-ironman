@@ -5,20 +5,20 @@ Czyli oswajamy listy, słowniki i pętle.
 ## Zadania
 
 ### Dict Maker
-Napisz funkcję przyjmującą na wejściu string (np. `'ala'`) zwracającą na wyjściu słownik
+Napisz funkcję przyjmującą na wejściu string (np. `'ala'`) i zwracającą na wyjściu słownik
 z liczbą powtórzeń danego znaku z wejścia (w tym przypadku `{‘a’: 2, ‘l’:1}`).
 
 
 ### Dict Maker Collective
-Zmodyfikuj rozwiązanie zadania 1. (*Dict Maker*) tak, żeby wykorzystany był moduł *collections* z biblioteki standardowej.
+Zmodyfikuj rozwiązanie zadania 1. (*Dict Maker*) tak, żeby wykorzystany został moduł *collections* z biblioteki standardowej.
 
-**HINT**
+**HINT** :bulb:
 
-[collections.Counter](https://docs.python.org/2/library/collections.html#collections.Counter)
+Patrz [collections.Counter](https://docs.python.org/2/library/collections.html#collections.Counter).
 
 ### Phone book :phone:
-Zaimplementuj prostą książkę telefoniczną. Potrzebne są nam takie funkcjonalności jak:
-* dodawanie nowego numeru telefonicznego dla danego imienia i nazwiska, struktura powinna wyglądać następująco:
+Zaimplementuj prostą książkę telefoniczną. Potrzebne są nam funkcjonalności takie jak:
+* dodanie nowego numeru telefonicznego dla danego imienia i nazwiska, struktura powinna wyglądać następująco:
         `{‘surname’: {‘name’: [‘12-32-21’, ...], ...}, …}`
 * czyszczenie ksiązki telefonicznej
 * mając na wejściu nazwisko, chcemy wyświetlić przypisane do niego numery oraz na końcu liczbę tych numerów (użyj generatorów!). Przykładowy output:
@@ -32,7 +32,7 @@ Załużmy, że na początku książka jest pustym słownikiem.
 
 ### Phone book 2.0 :ledger:
 Struktura podana w poprzednim zadaniu nie jest do końca poprawna dla takiego problemu.
-Czy można zaproponować inne rozwiązanie? (kolejność alfabetyczna i numery nie powinny się powtarzać)
+Czy można zaproponować inne rozwiązanie? (np. kolejność alfabetyczna i numery nie powinny się powtarzać)
 
 
 ## Zadanie domowe :runner:

@@ -23,4 +23,4 @@ def flatten_file(file):
 
 
 if __name__ == '__main__':
-    print(flatten_file('marysia_pickle_jar'))
+    print(flatten_file('pickle'))

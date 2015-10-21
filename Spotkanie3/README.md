@@ -17,7 +17,7 @@ Napisz funkcję obliczającą kolejny element ciągu Fibonacciego rekurencyjnie 
 Posortuj listę używając sortowania bąbelkowego.
 
 
-## Zadanie domowe
+## Zadanie domowe :runner:
 
 ### Flat pickle jar
 
@@ -25,9 +25,10 @@ Napisz funkcję
 
     def flatten(li)
 
-która wylistuje wszystkie pojedyncze elementy (bez kluczy), albo listę tych elementów.
+która przujmie strukturę danych złożoną z list i słowników, a następnie wylistuje wszystkie pojedyncze elementy
+(bez kluczy), albo listę tych elementów. Struktura danych powinna zostać wczytana z pliku przy pomocy `pickle`.
 
-**HINT:** rekurencja
+**HINT:** :bulb: rekurencja
 
 ### List file
 
@@ -35,9 +36,8 @@ Napisz funkcję
 
     def list_files()
 
-która dostaje ścieżkę do folderu pierwszego, ma tam zajrzeć i wylistować jego zawartość.
-Dla podfoderów ma również zajrzeć do środka i wylistować zawartość, i tak do skutku.
-Nie trzeba wypisywać katalogów (lub wypisywać ale ze /). Dodatkowy punk za dodanie wciącia
+która dostaje ścieżkę do folderu pierwszego poziomu i listuje zawartość jego oraz jego podkatalogów.
+Można nie wypisywać nazw katalogów albo wypisywać ale ze */*. Dodatkowy punkt za dodanie wcięcia
 z każdym nowym poziomem, np:
 
 ```

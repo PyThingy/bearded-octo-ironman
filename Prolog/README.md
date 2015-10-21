@@ -4,7 +4,7 @@
 ## Zadania
 
 ### Choinka :christmas_tree:
-Program do rysowania choinki z gwiazdek. Użytkownik podaje wysokość, program rysuje trójkąt:
+Napisz program do rysowania choinki z gwiazdek. Użytkownik podaje wysokość choinki, program rysuje trójkąt:
 
 ```
 $ python choinka.py 3
@@ -25,7 +25,8 @@ $ python choinka.py 6
 
 ### Ramka
 
-Program do rysowania ramek wokół napisów. Użytkownik podaje tekst, program rysuje ramkę. Pierwsza wersja dla jednej linii tekstu, bonus za wiele linii:
+Napisz program do rysowania ramek wokół napisów. Użytkownik podaje tekst, program rysuje ramkę.
+Pierwsza wersja dla jednej linii tekstu, bonus za wiele linii:
 
 ```
 $ echo "foo" | python ramka.py
@@ -45,7 +46,8 @@ $ echo "Zen\nof\nPython" | python ramka.py
 
 ### FizzBuzz :honeybee:
 
-Program odlicza od 1 to N. Dla liczb podzielnych przez 3, wypisuje “Fizz”, dla podzielnych przez 5 wypisuje “Buzz”, a dla podzielnych zarówno przez 3 jak i 5, wypisuje FizzBuzz:
+Napisz program, który odlicza od 1 to N. Dla liczb podzielnych przez 3, wypisuje *Fizz*, dla podzielnych przez 5 wypisuje *Buzz*,
+a dla podzielnych zarówno przez 3 jak i 5, wypisuje *FizzBuzz*:
 
 ```
 $ python fizzbuzz.py 30
@@ -81,9 +83,9 @@ $ python fizzbuzz.py 30
 30 FizzBuzz
 ```
 
-### Countdown * (zadanie z gwiazdką) :wink:
+### Countdown :star: (zadanie z gwiazdką)
 
-Program przyjmuje datę i godzinę, a wyświetla ile pozostało do tej daty dni, godzin, minut i sekund:
+Napisz program, który przyjmuje datę i godzinę, a wyświetla ile pozostało do tej daty dni, godzin, minut i sekund:
 
 ```
 $ python countdown.py "2015-03-18 18:40:23"

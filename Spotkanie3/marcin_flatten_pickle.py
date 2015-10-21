@@ -16,7 +16,7 @@ def flatten(elem_nested):
     return all_flatten
 
 if __name__ == '__main__':
-    obj = open('marcin_file.pickle', 'rb')
+    obj = open('pickle', 'rb')
     pickle_obj = pickle.load(obj)
     print(flatten(pickle_obj))
     obj.close()
